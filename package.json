@@ -1,7 +1,7 @@
 {
     "name": "codedby.pm",
     "author": "codedby.pm",
-    "homepage": "https://codedbypm.github.io/www.codedby.pm",
+    "homepage": "https://codedby.pm",
     "version": "1.0.2",
     "private": true,
     "dependencies": {
