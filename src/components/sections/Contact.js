@@ -43,7 +43,6 @@ function Contact() {
         setOutcome("You message has been sent!!!") 
       })
       .catch(error => {
-        console.log(error)
         setError(true)
         setOutcome("Error while sending message")
       })
