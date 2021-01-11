@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/www.codedby.pm/static/css/main.10addc36.chunk.css",
+    "main.js": "/www.codedby.pm/static/js/main.4b12b26c.chunk.js",
+    "main.js.map": "/www.codedby.pm/static/js/main.4b12b26c.chunk.js.map",
+    "runtime-main.js": "/www.codedby.pm/static/js/runtime-main.e12e85ab.js",
+    "runtime-main.js.map": "/www.codedby.pm/static/js/runtime-main.e12e85ab.js.map",
+    "static/css/2.33be930a.chunk.css": "/www.codedby.pm/static/css/2.33be930a.chunk.css",
+    "static/js/2.8e2122c2.chunk.js": "/www.codedby.pm/static/js/2.8e2122c2.chunk.js",
+    "static/js/2.8e2122c2.chunk.js.map": "/www.codedby.pm/static/js/2.8e2122c2.chunk.js.map",
+    "index.html": "/www.codedby.pm/index.html",
+    "precache-manifest.a8ee50074bbf8a633e39ba051c3eea15.js": "/www.codedby.pm/precache-manifest.a8ee50074bbf8a633e39ba051c3eea15.js",
+    "service-worker.js": "/www.codedby.pm/service-worker.js",
+    "static/css/2.33be930a.chunk.css.map": "/www.codedby.pm/static/css/2.33be930a.chunk.css.map",
+    "static/css/main.10addc36.chunk.css.map": "/www.codedby.pm/static/css/main.10addc36.chunk.css.map",
+    "static/js/2.8e2122c2.chunk.js.LICENSE.txt": "/www.codedby.pm/static/js/2.8e2122c2.chunk.js.LICENSE.txt",
+    "static/media/slick-theme.css": "/www.codedby.pm/static/media/slick.f97e3bbf.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e12e85ab.js",
+    "static/css/2.33be930a.chunk.css",
+    "static/js/2.8e2122c2.chunk.js",
+    "static/css/main.10addc36.chunk.css",
+    "static/js/main.4b12b26c.chunk.js"
+  ]
+}
