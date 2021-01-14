@@ -1,16 +1,16 @@
-import React, { useState } from "react";
-import ReactCursorPosition from "react-cursor-position";
-import { Element } from "react-scroll";
-import About from "../components/sections/About";
-import Blogs from "../components/sections/Blogs";
-import Brandlogos from "../components/sections/Brandlogos";
-import Contact from "../components/sections/Contact";
-import Experiences from "../components/sections/Experiences";
-import Herosection from "../components/sections/Herosection";
-import Pricing from "../components/sections/Pricing";
-import Services from "../components/sections/Services";
-import Testimonials from "../components/sections/Testimonials";
-import Works from "../components/sections/Works";
+import React, { useState } from 'react';
+import ReactCursorPosition from 'react-cursor-position';
+import { Element } from 'react-scroll';
+import About from '../components/sections/About';
+import Blogs from '../components/sections/Blogs';
+import Brandlogos from '../components/sections/Brandlogos';
+import Contact from '../components/sections/Contact';
+import Experiences from '../components/sections/Experiences';
+import Herosection from '../components/sections/Herosection';
+import Pricing from '../components/sections/Pricing';
+import Services from '../components/sections/Services';
+import Testimonials from '../components/sections/Testimonials';
+import Works from '../components/sections/Works';
 
 function Home() {
   document.body.classList.add("dark");
