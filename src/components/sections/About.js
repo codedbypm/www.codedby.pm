@@ -5,57 +5,68 @@ import Pagetitle from "../elements/Pagetitle";
 import Skill from "../elements/Skill";
 
 const aboutContent = {
-  name: "Bolby",
+  name: "Me",
   avatarImage: "/images/memoji-hi.png",
   content:
-    "I am Bolby Doe, web developer from London, United Kingdom. I have rich experience in web site design and building and customization, also I am good at WordPress.",
+    "I am Paolo, software engineer from Amsterdam, The Netherlands. I have 10+ years experience designing, developing, testing and distributing apps for iOS and its sibling OS's.",
 };
 
-const progressData = [
+const skills = [
   {
     id: 1,
-    title: "Development",
-    percantage: 85,
-    progressColor: "#FFD15C",
+    name: "Swift",
+    icon: "/images/skills/swift.svg",
+    value: 99,
+    progressColor: "#E94E36"
   },
   {
     id: 2,
-    title: "UI/UX Design",
-    percantage: 95,
-    progressColor: "#FF4C60",
+    name: "Objective-C",
+    icon: "/images/skills/objc.svg",
+    value: 99,
+    progressColor: "#FFD15C"
   },
   {
     id: 3,
-    title: "Photography",
-    percantage: 70,
-    progressColor: "#6C6CE5",
-  },
-];
-
-const counterData = [
-  {
-    id: 1,
-    title: "Projects completed",
-    count: 198,
-    icon: "icon-fire",
-  },
-  {
-    id: 2,
-    title: "Cup of coffee",
-    count: 5670,
-    icon: "icon-cup",
-  },
-  {
-    id: 3,
-    title: "Satisfied clients",
-    count: 427,
-    icon: "icon-people",
+    name: "Golang",
+    icon: "/images/skills/gopher.svg",
+    value: 40,
+    progressColor: "#71C7D6"    
   },
   {
     id: 4,
-    title: "Nominees winner",
-    count: 35,
-    icon: "icon-badge",
+    name: "Node.js",
+    icon: "/images/skills/nodejs-text.svg",
+    value: 45,
+    progressColor: "#8CC84A"
+  },
+  {
+    id: 5,
+    name: "Google Cloud Platform",
+    icon: "/images/skills/gcloud.svg",
+    value: 50,
+    progressColor: "#4285F4"
+  },
+  {
+    id: 6,
+    name: "CI/CD",
+    icon: "/images/skills/fastlane.svg",
+    value: 80,
+    progressColor: "#8B30E1"
+  },
+  {
+    id: 7,
+    name: "Ruby",
+    icon: "/images/skills/ruby.svg",
+    value: 20,
+    progressColor: "#E51620"
+  },
+  {
+    id: 8,
+    name: "HTML/CSS",
+    icon: "/images/skills/html-css.svg",
+    value: 44,
+    progressColor: "#146EB0"
   },
 ];
 
@@ -74,29 +85,28 @@ function About() {
 
           <div className="col-md-9 triangle-left-md triangle-top-sm">
             <div className="rounded bg-white shadow-dark padding-30">
-              <div className="row">
-                <div className="col-md-6">
+              <div 
+                className="row"           
+                style={{ 
+                  marginRight: '0px',
+                  marginLeft: '0px'
+                }}
+              >
+                <div className="col-md-12" style={{padding: '0px'}}>
                   <p>{aboutContent.content}</p>
-                  <div className="mt-3">
-                    <a href="!#" className="btn btn-default">
-                      Download CV
-                    </a>
-                  </div>
-                  <div
-                    className="spacer d-md-none d-lg-none"
-                    data-height="30"
-                  ></div>
                 </div>
-                <div className="col-md-6">
-                  {progressData.map((progress) => (
+                <div className="row">
+                {skills.map((skill) => (
+                  <div className="col-6">
                     <TrackVisibility
                       once
-                      key={progress.id}
+                      key={skill.id}
                       className="progress-wrapper"
                     >
-                      <Skill progress={progress} />
+                      <Skill progress={skill} />
                     </TrackVisibility>
-                  ))}
+                  </div>
+                ))}
                 </div>
               </div>
             </div>

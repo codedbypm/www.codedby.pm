@@ -22,10 +22,10 @@ function Home() {
             <Herosection />
           </ReactCursorPosition>
         </Element>
-        {/* <Element name="section-about">
+        <Element name="section-about">
           <About />
         </Element>
-        <Element name="section-services">
+        {/* <Element name="section-services">
           <Services />
         </Element> */}
         <Element name="section-experiences">

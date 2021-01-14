@@ -1,8 +1,9 @@
 import React from "react";
 
 function Skill({ progress, isVisible }) {
-  const { title, percantage, progressColor } = progress;
+  const { name, value, progressColor } = progress;
   const winWidth = window.innerWidth;
+  
   const progressQuery = () => {
     if (winWidth && winWidth > 767) {
       return (
@@ -11,7 +12,7 @@ function Skill({ progress, isVisible }) {
           style={
             isVisible
               ? {
-                  width: `${percantage}%`,
+                  width: `${value}%`,
                   background: progressColor,
                 }
               : { width: 0, background: progressColor }
@@ -23,17 +24,18 @@ function Skill({ progress, isVisible }) {
       <div
         className="progress-bar data-background"
         style={{
-          width: `${percantage}%`,
+          width: `${value}%`,
           background: progressColor,
         }}
       ></div>
     );
   };
+
   return (
     <div className="skill-item">
       <div className="skill-info clearfix">
-        <h4 className="float-left mb-3 mt-0">{title}</h4>
-        <span className="float-right">{percantage}%</span>
+        <h4 className="float-left mb-3 mt-0">{name}</h4>
+        <span className="float-right">{value}%</span>
       </div>
       <div className="progress">{progressQuery()}</div>
     </div>

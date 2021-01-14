@@ -185,6 +185,7 @@ section.home {
 /*=================================================================*/
 
 .skill-item {
+    padding-top: 20px;
     .skill-info {
         h4 {
             font-size: 16px;
@@ -193,6 +194,9 @@ section.home {
         span {
             font-size: 14px;
         }
+    }
+    .float-left.mb-3.mt-0 {
+        margin-bottom: 0px!important;
     }
 }
 
