@@ -61,6 +61,12 @@ const brandlogoData = [
     name: "Knab",
     url: "https://www.knab.nl"
   },
+  {
+    id: 11,
+    image: "images/clients/hymn.svg",
+    name: "HYMN",
+    url: "https://www.hymn.com"
+  },
 ];
 
 function BrandlogosDark() {

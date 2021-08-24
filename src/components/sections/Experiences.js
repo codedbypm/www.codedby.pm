@@ -25,6 +25,10 @@ const educationData = [
 
 const experienceData = [
   {
+    title: "HYMN",
+    years: "2021",
+  },
+  {
     title: "Backbase",
     years: "2020",
   },
